@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background-color: lightgrey;
+    font-family: 'Segoe UI';
+font-size: 18px;
+}
+header {
+    height: 20vh;
+    background-color: mediumseagreen;
+    display: flex;
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.users {
+    padding: 4.5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user {
+    margin: 0.5vh;
+    flex: 1 1 25%;
+    background-color: rgb(235, 235, 235);
+    padding: 2vh;
+}
+.name_and_photo {
+    display: flex;
+    height: 25%;
+    align-items: flex-start;
+}
+.image {
+    height: 100%;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.name {
+    align-self: flex-start;
+    padding-left: 2vh;
+}
+.name p
+{
+    font-weight: bold;
+    margin-top: 0px;
+}
+.info {
+    text-align: left;
+}
