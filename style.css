@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    background-color: lightgrey;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+header {
+    height: 20vh;
+    background-color: mediumseagreen;
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.users {
+    padding: 4.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.user {
+    position: relative;
+    margin: 0.5vh;
+    min-height: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 45%;
+    background-color: rgb(235, 235, 235);
+    padding: 2vh;
+}
+
+.user:hover {
+    background-color: rgb(245, 245, 245);
+} 
+
+textarea {
+    resize: none;
+}
+
+button { 
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.delete_button {
+    position: absolute;
+    right: 2vh;
+    background-image: url(delete_icon.jpg);
+}
+
+.save_button {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px black solid;
+    left: calc(50% - 50px);
+}
+
+.empty {
+    position: relative;
+    border: 1px dashed black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.empty:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.invis {
+    background-color: transparent;
+}
+
+.invis:hover {
+    background-color: transparent;
+}
+
+.photo_and_name {
+    display: flex;
+    height: 25%;
+    align-items: flex-start;
+}
+
+.photo {
+    height: 100%;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    align-self: center;
+    padding-left: 2vh;
+}
+
+.name p
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.name input {
+    font: inherit;
+}
+
+.info {
+    text-align: left;
+}
+
+.info input {
+    font: inherit;
+}
